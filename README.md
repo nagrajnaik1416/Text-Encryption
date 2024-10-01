@@ -37,8 +37,8 @@ This is a web-based Text Encryption and Decryption Tool built using Flask, provi
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/nagrajnaik1416/text-encryption-decryption-tool.git
-cd text-encryption-decryption-tool
+https://github.com/nagrajnaik1416/Text-Encryption.git
+cd Text-Encryption
 ```
 
 ## Installation
