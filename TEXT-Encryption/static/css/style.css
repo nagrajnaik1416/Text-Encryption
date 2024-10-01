@@ -1,0 +1,98 @@
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #000000; 
+    margin: 0;
+    padding: 0;
+    background-image: url("images/background.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff; /* White background for container */
+    padding: 40px;
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Header */
+h1 {
+    color: #006e10; /* Darker text color */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.8rem; /* Slightly larger font size */
+}
+
+/* Form Labels */
+label {
+    font-weight: 500;
+    color: #006e10; /* Slightly lighter text color */
+    font-size: 1.2rem;
+}
+
+/* Inputs and Dropdowns */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #006e10;
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1rem;
+    background-color: #010000;
+    color: #006e10; /* Text color */
+}
+
+input:focus, select:focus {
+    border-color: #006e10; /* Focus border color */
+    outline: none;
+    background-color: #ffffff; /* Change background on focus */
+    color: #000000; /* Change text color on focus */
+}
+
+
+button {
+    display: block;
+    width: 25%;
+    padding: 12px;
+    margin: 20px auto;
+    background-color: #006e10; /* Primary button color */
+    color: #fffdfd;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #006e10; /* Darker shade on hover */
+    transform: scale(1.02);
+}
+
+/* Result Paragraph */
+p {
+    font-weight: 500;
+    color: #006e10; /* Text color */
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: #000000; /* Light background for paragraph */
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: 2px solid #006e10; /* Border color for paragraph */
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #006e10; /* Footer text color */
+    font-size: 0.9rem;
+    border-top: 2px solid #006e10; /* Border color for footer */
+    padding-top: 10px; /* Optional: add padding for better spacing */
+}
